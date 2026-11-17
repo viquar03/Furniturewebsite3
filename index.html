@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artisan Woodworks - Bespoke Sofas, Cabinets & Curtains</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-inner">
+            <a href="#" class="brand">ARTISAN<span>WOOD</span></a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home">Home</a>
+                <a href="#catalog">Catalog</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="hamburger" id="hamburger">&#9776;</button>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=80" alt="Luxury custom living room furniture" class="hero-bg">
+        <div class="hero-shade"></div>
+        <div class="container hero-content">
+            <h1>Timeless Woodcraft &amp; Custom Interiors</h1>
+            <p>Handcrafted Teak Sofas, Sleek Modular Cabinets, and Tailored Curtains built to order.</p>
+            <div class="actions">
+                <a href="#catalog" class="btn btn-gold">View Collection</a>
+                <button class="btn btn-dark-outline" id="visitBtn">Book Home Visit</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="catalog" class="catalog section">
+        <div class="container">
+            <div class="title-block">
+                <h2>Signature Pieces</h2>
+                <p>Explore our custom carpentry and curtain work.</p>
+            </div>
+
+            <div class="tabs">
+                <button class="tab active" data-type="all">All Items</button>
+                <button class="tab" data-type="sofa">Sofas</button>
+                <button class="tab" data-type="cabinet">Cabinets</button>
+                <button class="tab" data-type="curtain">Curtains</button>
+            </div>
+
+            <div class="items-grid">
+                <div class="item-card" data-type="sofa">
+                    <img src="https://images.unsplash.com/photo-1550254478-ead40cc54513?auto=format&fit=crop&w=700&q=80" alt="Walnut Leather & Fabric Sofa">
+                    <div class="item-details">
+                        <span class="badge">Sofa</span>
+                        <h3>Walnut Base 3-Seater</h3>
+                        <p>Rich walnut hardwood frame with plush deep seating.</p>
+                        <button class="btn btn-gold-sm quote-trigger" data-product="Walnut Base 3-Seater Sofa">Get Quote</button>
+                    </div>
+                </div>
+
+                <div class="item-card" data-type="cabinet">
+                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=700&q=80" alt="Dark Wood Kitchen Cabinetry">
+                    <div class="item-details">
+                        <span class="badge">Cabinet</span>
+                        <h3>Matte Espresso Cabinets</h3>
+                        <p>Custom kitchen &amp; living storage with brass handles.</p>
+                        <button class="btn btn-gold-sm quote-trigger" data-product="Matte Espresso Cabinets">Get Quote</button>
+                    </div>
+                </div>
+
+                <div class="item-card" data-type="curtain">
+                    <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=700&q=80" alt="Floor to Ceiling Velvet Curtains">
+                    <div class="item-details">
+                        <span class="badge">Curtains</span>
+                        <h3>Royal Pleated Drapes</h3>
+                        <p>Floor-to-ceiling curtains with custom teakwood finials.</p>
+                        <button class="btn btn-gold-sm quote-trigger" data-product="Royal Pleated Drapes">Get Quote</button>
+                    </div>
+                </div>
+
+                <div class="item-card" data-type="sofa">
+                    <img src="https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=700&q=80" alt="Modern Velvet Lounge Sofa">
+                    <div class="item-details">
+                        <span class="badge">Sofa</span>
+                        <h3>Studio Velvet Lounger</h3>
+                        <p>Stain-resistant upholstery on seasoned teakwood legs.</p>
+                        <button class="btn btn-gold-sm quote-trigger" data-product="Studio Velvet Lounger">Get Quote</button>
+                    </div>
+                </div>
+
+                <div class="item-card" data-type="cabinet">
+                    <img src="https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?auto=format&fit=crop&w=700&q=80" alt="Wooden TV Console & Cabinet">
+                    <div class="item-details">
+                        <span class="badge">Cabinet</span>
+                        <h3>Wall-Mounted TV Unit</h3>
+                        <p>Floating walnut cabinet with concealed wire storage.</p>
+                        <button class="btn btn-gold-sm quote-trigger" data-product="Wall-Mounted TV Unit">Get Quote</button>
+                    </div>
+                </div>
+
+                <div class="item-card" data-type="curtain">
+                    <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=700&q=80" alt="Layered Window Curtains">
+                    <div class="item-details">
+                        <span class="badge">Curtains</span>
+                        <h3>Double-Layer Sheer &amp; Drape</h3>
+                        <p>Daylight sheer paired with evening privacy curtains.</p>
+                        <button class="btn btn-gold-sm quote-trigger" data-product="Double-Layer Sheer & Drape">Get Quote</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-sec section">
+        <div class="container contact-grid">
+            <div class="shop-card">
+                <h2>Visit Our Workshop</h2>
+                <p>We bring wood &amp; fabric samples straight to your home.</p>
+                <ul>
+                    <li><strong>Workshop:</strong> Plot 22, Woodcraft Market</li>
+                    <li><strong>Call:</strong> +91 98765 43210</li>
+                    <li><strong>Timing:</strong> 10:00 AM – 8:00 PM</li>
+                </ul>
+                <button class="btn btn-wa" id="whatsappDirect">Chat on WhatsApp</button>
+            </div>
+
+            <form id="inquiryForm" class="dark-form">
+                <h3>Request Custom Estimate</h3>
+                <input type="text" id="custName" placeholder="Full Name" required>
+                <input type="tel" id="custPhone" placeholder="Mobile Number" required>
+                <select id="custCategory">
+                    <option value="Custom Sofa">Custom Sofa</option>
+                    <option value="Wooden Cabinets">Wooden Cabinets</option>
+                    <option value="Custom Curtains">Custom Curtains</option>
+                </select>
+                <textarea id="custMsg" rows="3" placeholder="Tell us your requirements..."></textarea>
+                <button type="submit" class="btn btn-gold" style="width:100%">Submit Inquiry</button>
+                <p id="formNote" class="form-note"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Artisan Woodworks. Custom Sofas, Cabinets &amp; Curtains.</p>
+    </footer>
+
+    <!-- Popup Modal -->
+    <div class="popup" id="popup">
+        <div class="popup-inner">
+            <span class="close-btn" id="closePopup">&times;</span>
+            <h3>Request Price Quote</h3>
+            <p id="popupItem" class="popup-item"></p>
+            <form id="popupForm">
+                <input type="text" id="pName" placeholder="Your Name" required>
+                <input type="tel" id="pPhone" placeholder="Phone Number" required>
+                <button type="submit" class="btn btn-gold" style="width:100%">Request Callback</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
